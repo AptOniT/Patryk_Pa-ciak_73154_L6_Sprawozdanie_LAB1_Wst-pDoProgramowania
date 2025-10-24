@@ -1,0 +1,1 @@
+# Patryk_Pa-ciak_73154_L6_Sprawozdanie_LAB1_Wst-pDoProgramowania
