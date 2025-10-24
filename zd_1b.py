@@ -1,0 +1,5 @@
+print("1. ", int(3.0))  # Funkcja int() konwertuje liczbę zmiennoprzecinkową (float) na liczbę całkowitą (int)
+print("2. ", float(3))  # Funkcja float() zamienia liczbę całkowitą (int) na zmiennoprzecinkową (float)
+print("3. ", float("3.0"))  # Funkcja float() przekształca napis (string) zawierający liczbę na typ zmiennoprzecinkowy (float)
+print("4. ", str(12.4))  # Funkcja str() konwertuje liczbę (tu: zmiennoprzecinkową) na tekst (string)
+print("5. ", bool(0))  # Typ logiczny (True/False); 0 oznacza fałsz (False), a każda inna wartość — prawdę (True)
