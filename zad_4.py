@@ -1,6 +1,6 @@
-krotka = input("Podaj zdanie:")
-alfabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "u", "p", "r", "s", "t", "w", "x", "y", "z"]
-for x in krotka:
- print(x)
+def sum_digits(n: int):
+ if n < 10:
+  return n
+ return n % 10 + sum_digits(n //10)
 
-print(alfabet in krotka)
+print(sum_digits(n = int(input("Podaj liczbę:"))))

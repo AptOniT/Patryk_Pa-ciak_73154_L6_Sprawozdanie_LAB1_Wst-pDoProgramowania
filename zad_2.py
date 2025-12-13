@@ -1,16 +1,12 @@
-lista =["Mikołaj", "Wojek", "Łukasz", "Kamil"]
+def profil(imie: str, nazwisko: str, e_mail: str, **kwargs ):
+    imie = imie.strip()
+    email = email.strip()
+    if not isinstance(imie, str):
+        return ValueError("Name must be a string")
+    if len(kwargs) < 3:
+        raise ValueError("Podaj co najmniej 3 dodatkowe informacje")
+    
+    profil = {"imie:", imie, "email:", e_mail}
+    profil.update(kwargs)
 
-print(sorted(lista))
-lista.append("Szymon")
-lista.append("Krystian")
-print(lista)
-
-lista.insert(3,"Wacław")
-print(lista)
-
-lista.reverse()
-print(lista)
-
-lista= lista*2
-
-print(lista)
+    return profil
